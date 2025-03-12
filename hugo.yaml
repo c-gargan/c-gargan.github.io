@@ -1,7 +1,7 @@
 baseURL: https://c-gargan.github.io
 
 languageCode: bn
-title: "Cory's Portfolio Site"
+title: "Cory's Portfolio"
 
 # Use Hugo modules to add theme
 module:
