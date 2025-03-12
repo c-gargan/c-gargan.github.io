@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://c-gargan.github.io
 
 languageCode: bn
-title: "John's Blog"
+title: "Cory's Portfolio Site"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,13 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Cory's Portfolio Site"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+#  bn:
+#    languageCode: bn
+#    languageName: বাংলা
+#    title: জনের ব্লগ
+#    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -70,7 +70,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/c-gargan/c-gargan.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -100,7 +100,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -117,7 +117,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -155,7 +155,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:

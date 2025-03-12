@@ -13,59 +13,103 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
+#- name: Basic
+#  filter: "basic"
+- name: Programming Languages
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
-
+- name: Database
+  filter: "database"
+- name: Data Visualization
+  filter: "data vis"
+- name: Other
+  filter: "other"
+  
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Primary programming language for data analysis, machine learning, and automation."
+  categories: ["language"]
+  url: "https://python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Extracting, manipulating, and analyzing structured data from relational databases. I have experience with PostgreSQL, MySQL, and Snowflake"
+  categories: ["database", "language"]
+  # url: "#"
 
-- name: Cloud Computing
+- name: ETL (Extract, Transform, Load)
+  logo: /images/sections/skills/code.png
+  summary: "Building data pipelines to clean and structure data for analysis"
+  categories: ["database"]
+
+- name: Pandas & NumPy
+  logo: /images/sections/skills/python.png
+  summary: "Essential Python libraries for data manipulation and numerical computing."
+  categories: ["other"]
+  #url: "#"
+
+- name: Scikit-learn, RandomForest, XGBoost
+  logo: /images/sections/skills/python.png
+  summary: "Implementing machine learning models for classification, regression, and predictive analytics."
+  categories: ["other"]
+
+- name: Power BI, Tableau
+  logo: /images/sections/skills/datavis.png
+  summary: "Creating interactive dashboards and reports for business insights."
+  categories: ["data vis"]
+  url: "https://www.microsoft.com/en-us/power-platform/products/power-bi"
+
+- name: Matplotlib & Seaborn
+  logo: /images/sections/skills/python.png
+  summary: "Python libraries for static, animated, and interactive data visualizations."
+  categories: ["data vis"]
+  
+- name: Snowflake
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
+  summary: "Cloud-based data warehousing for scalable storage and analytics"
+  categories: ["database"]
+  url: "https://snowflake.com/"
+  
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Working with command-line tools for data processing and automation."
+  categories: ["other"]
+  # url: "https://.com/"
+  
+- name: Jupyter Notebook
+  logo: /images/sections/skills/code.png
+  summary: "An interactive environment for coding, documenting, and visualizing data."
+  categories: ["other"]
+  url: "https://jupyter.com/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: Data Validation
+  logo: /images/sections/skills/stats.gif
+  summary: "Ensuring data accuracy, completeness, and consistency in analytical processes."
+  categories: ["other"]
+  # url: "https://.org/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: R
+  logo: /images/sections/skills/r.png
+  summary: "Used for statistical computing and visualization in data science."
+  categories: ["language"]
+  url: "https://r-project.org/"
+
+- name: Regression Analysis & Predictive Modeling
+  logo: /images/sections/skills/scatter.png
+  summary: "Using statistical techniques to make data-driven predictions."
+  categories: ["other"]
+  # url: "https://.com/"
+  
+- name: Microsoft Dynamics 365
+  logo: /images/sections/skills/code.png
+  summary: "Managing customer and business data within CRM systems."
+  categories: ["database", "other"]
+  url: "https://www.microsoft.com/en-us/dynamics-365"
+
+- name: Microsoft Excel
+  logo: /images/sections/skills/stats.gif
+  summary: "Performing data analysis, and reporting using advanced functions such as VLOOKUP/XLOOKUP, INDEX-MATCH, PivotTables, Power Query, and dynamic arrays to automate workflows and enhance decision-making."
+  categories: ["other"]
+  url: "https://www.microsoft.com/en-us/microsoft-365/excel"
